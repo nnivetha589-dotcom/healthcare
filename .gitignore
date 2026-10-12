@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+medimate.db
+uploads/*
+!uploads/.gitkeep
+# SQLite temporary database files
+medimate.db-shm
+medimate.db-wal
+
+# Python cache files
+*.pyo
