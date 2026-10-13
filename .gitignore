@@ -2,12 +2,20 @@ __pycache__/
 *.pyc
 .venv/
 .env
-medimate.db
-uploads/*
-!uploads/.gitkeep
-# SQLite temporary database files
-medimate.db-shm
-medimate.db-wal
+backend/data/medimate.db
+backend/data/medimate.db-shm
+backend/data/medimate.db-wal
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
 
 # Python cache files
 *.pyo
+
+# Nested development environments and frontend dependencies
+**/.venv/
+**/venv/
+**/node_modules/
+**/.env
+**/medimate.db
+**/medimate.db-shm
+**/medimate.db-wal
